@@ -1,0 +1,151 @@
+{
+  "data" : [
+    {
+      "id" : "template-Hi , your attorney's number is (323) 980-1700",
+      "type" : "template",
+      "template" : "Hi , your attorney's number is (323) 980-1700"
+    },
+    {
+      "id" : "template-Hi how, can I help you?",
+      "type" : "template",
+      "template" : "Hi how, can I help you?"
+    },
+    {
+      "id" : "template-Hi {wit/contact:fullname}, your attorney's number is (323) 980-1700",
+      "type" : "template",
+      "template" : "Hi {wit/contact:fullname}, your attorney's number is (323) 980-1700",
+      "requirements" : [
+        {
+          "name" : "wit/contact:fullname",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Hi {wit/contact}, your attorney's number is (323) 980-1700",
+      "type" : "template",
+      "template" : "Hi {wit/contact}, your attorney's number is (323) 980-1700",
+      "requirements" : [
+        {
+          "name" : "wit/contact",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Hi {wit}, your attorney's number is (323) 980-1700",
+      "type" : "template",
+      "template" : "Hi {wit}, your attorney's number is (323) 980-1700",
+      "requirements" : [
+        {
+          "name" : "wit",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Hi {}, your attorney's number is (323) 980-1700",
+      "type" : "template",
+      "template" : "Hi {}, your attorney's number is (323) 980-1700"
+    },
+    {
+      "id" : "template-Hi, ",
+      "type" : "template",
+      "template" : "Hi, "
+    },
+    {
+      "id" : "template-Hi, please tell me your full name",
+      "type" : "template",
+      "template" : "Hi, please tell me your full name"
+    },
+    {
+      "id" : "template-Hi, please tell me your {full name}",
+      "type" : "template",
+      "template" : "Hi, please tell me your {full name}",
+      "requirements" : [
+        {
+          "name" : "full name",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Hi, please tell me your {fullname}",
+      "type" : "template",
+      "template" : "Hi, please tell me your {fullname}",
+      "requirements" : [
+        {
+          "name" : "fullname",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Hi, your attorney's number is",
+      "type" : "template",
+      "template" : "Hi, your attorney's number is"
+    },
+    {
+      "id" : "template-Hi, your attorney's number is (323) 980-1700",
+      "type" : "template",
+      "template" : "Hi, your attorney's number is (323) 980-1700"
+    },
+    {
+      "id" : "template-Hi, your attorney's number is (323) 980-1700{entered name}",
+      "type" : "template",
+      "template" : "Hi, your attorney's number is (323) 980-1700{entered name}",
+      "requirements" : [
+        {
+          "name" : "entered name",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Hi, your attorney's number is 1-800-attonrey",
+      "type" : "template",
+      "template" : "Hi, your attorney's number is 1-800-attonrey"
+    },
+    {
+      "id" : "template-Hi, {full name} your attorney's number is (323) 980-1700",
+      "type" : "template",
+      "template" : "Hi, {full name} your attorney's number is (323) 980-1700",
+      "requirements" : [
+        {
+          "name" : "full name",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Please enter your date of birth beginning with the month, then the day, then the year",
+      "type" : "template",
+      "template" : "Please enter your date of birth beginning with the month, then the day, then the year"
+    },
+    {
+      "id" : "template-Your social worker's name is ",
+      "type" : "template",
+      "template" : "Your social worker's name is "
+    },
+    {
+      "id" : "template-Your social worker's name is Christopher ",
+      "type" : "template",
+      "template" : "Your social worker's name is Christopher "
+    },
+    {
+      "id" : "template-Your social worker's name is Christopher Conrad ",
+      "type" : "template",
+      "template" : "Your social worker's name is Christopher Conrad "
+    },
+    {
+      "id" : "template-Your social worker's number is ",
+      "type" : "template",
+      "template" : "Your social worker's number is "
+    },
+    {
+      "id" : "template-Your social worker's number is 323-340-6388",
+      "type" : "template",
+      "template" : "Your social worker's number is 323-340-6388"
+    }
+  ]
+}
